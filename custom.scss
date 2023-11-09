@@ -1,0 +1,30 @@
+$color:red;
+$color2: #23f445;
+main{
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background: #000;
+}
+div  {
+    align-items: center;
+    font-size: 18px;
+    p{
+        color: blueviolet;
+    }
+
+}
+ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: $color;
+    
+}
+ol{
+    font-size: 18px;
+    color: $color2;
+}
